@@ -1,11 +1,6 @@
 local wezterm = require 'wezterm'
-local mux = wezterm.mux
-local act = wezterm.action
 
 local config = {}
-local keys = {}
-local mouse_bindings = {}
-local launch_menu = {}
 
 if wezterm.config_builder then
     config = wezterm.config_builder()
