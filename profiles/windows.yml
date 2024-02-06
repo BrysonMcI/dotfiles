@@ -2,7 +2,6 @@ extends:
   - base
 
 dotfiles:
-  # `shared/root` will be deployed by `base`
   - path: "nvim"
     rename: "AppData\\Local\\nvim"
   - path: "wezterm\\wezterm.lua"
